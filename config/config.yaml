@@ -140,6 +140,16 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+      
+    - id: "github-trending-java"
+      name: "GitHub Java Trending"
+      url: "https://rsshub.app/github/trending/daily/java"
+      max_age_days: 1
+    
+    - id: "github-trending-ai"
+      name: "GitHub Trending AI"
+      url: "https://rsshub.app/github/trending/daily/any"
+      max_age_days: 1
 
     # 自定义源示例
     # - id: "custom-feed"
